@@ -1,0 +1,2 @@
+#!/bin/bash
+opentelemetry-instrument gunicorn -c gunicorn_conf.py auto_main:app
